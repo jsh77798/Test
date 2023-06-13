@@ -10,6 +10,7 @@ Head::Head()
 
 Head::~Head() 
 {
+
 }
 
 void Head::Tick(float _Time) 
@@ -41,3 +42,4 @@ void Head::Tick(float _Time)
 
     AddPos(MovePos);
 }
+
