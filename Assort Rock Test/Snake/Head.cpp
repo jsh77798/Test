@@ -24,15 +24,19 @@ void Head::Tick(float _Time)
     case 'a':
         MovePos = int4::Left;
         break;
+
     case 'd':
         MovePos = int4::Right;
         break;
+
     case 'w':
         MovePos = int4::Up;
         break;
+
     case 's':
         MovePos = int4::Down;
         break;
+
     case 'q':
         ConsoleEngineCore::EngineOff();
         break;
