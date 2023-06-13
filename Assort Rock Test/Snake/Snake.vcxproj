@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8d4f801d-54f7-4879-82b8-36ecd33848ec}</ProjectGuid>
-    <RootNamespace>Test1</RootNamespace>
+    <ProjectGuid>{d8d9ca2e-587b-4c73-b49f-d7b4c8e5ba98}</ProjectGuid>
+    <RootNamespace>Snake</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,48 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Test1.cpp" />
+    <ClCompile Include="Body.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ConsoleEngineCore.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ConsoleMath.cpp" />
+    <ClCompile Include="ConsoleObject.cpp" />
+    <ClCompile Include="ConsoleScreen.cpp" />
+    <ClCompile Include="Head.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Part.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Body.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ConsoleEngineCore.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ConsoleMath.h" />
+    <ClInclude Include="ConsoleObject.h" />
+    <ClInclude Include="ConsoleScreen.h" />
+    <ClInclude Include="Head.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Part.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="테스트제한사항.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
