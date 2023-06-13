@@ -9,8 +9,7 @@ int main()
 {
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-    ConsoleEngineCore::CreateObject<Head>();
-
+    Head* Head1 = ConsoleEngineCore::CreateObject<Head>();
 
     // 이 함수만은 무조건 존재해야 합니다.
     ConsoleEngineCore::EngineStart(int4{3, 3});

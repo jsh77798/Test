@@ -15,6 +15,8 @@ public:
 	Head& operator=(const Head& _Other) = delete;
 	Head& operator=(Head&& _Other) noexcept = delete;
 
+	// std::list<Body*> AllBody;
+
 protected:
 	void Tick(float _Time);
 

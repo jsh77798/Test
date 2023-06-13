@@ -21,3 +21,5 @@
 3. head body를 먹었을때 body head를 따라다녀야 합니다.
 
 4. ConsoleEngineCore에 함수를 추가해서 Leck을 없애라.
+
+5. 그 어떠한 경우에는 12시 40분 이후에 커밋하지 마세요.
